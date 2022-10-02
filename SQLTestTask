@@ -1,0 +1,5 @@
+SELECT ProductName, Category1 from ProductsAndCategories
+UNION
+SELECT ProductName, Category2 from ProductsAndCategories
+UNION
+SELECT ProductName, Category3 from ProductsAndCategories
